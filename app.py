@@ -22,7 +22,7 @@ st.caption("AI-powered Pneumonia Detection from Chest X-rays")
 # Model Path & URL
 # ----------------------------
 MODEL_PATH = "WaAI_Xray_Model.keras"
-MODEL_URL = "https://huggingface.co/ososoo/PneumoniaClassifier/resolve/main/WaAI_Xray_Model.keras"
+MODEL_URL = "https://huggingface.co/ososoo/PneumoniaClassifier/resolve/main/WaAI_Xray_Model.h5"
 
 # ----------------------------
 # Load Model (Functional-safe)
@@ -106,3 +106,4 @@ if uploaded_file:
 # ----------------------------
 st.markdown("---")
 st.caption("Built with ❤️ by **Osama Youssef | ننشر الرحمة من خلال العلم** — Version 1.0")
+
